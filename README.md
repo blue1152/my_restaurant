@@ -4,11 +4,11 @@
 
 ## 如何啟動本專案
 
-### 透過 npm 安裝 Node.js、Express、與 nodemon
+### 安裝 Node.js，並透過 npm 來安裝 Express 與 nodemon 套件
 
-1. 打開終端機，輸入以下指令，來建立 package.json：
+1. 打開終端機，輸入以下指令，透過 nvm 來安裝 Node.js最新版本(10.15.0)：
 ```
-$ npm init -y
+$ nvm install 10.15.0
 ```
 
 2. 輸入以下指令，安裝 Express套件：
