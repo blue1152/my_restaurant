@@ -5,7 +5,29 @@
 ## 如何啟動本專案
 
 * 透過 npm 安裝 Node.js、Express、與 nodemon
+
+1. 打開終端機，輸入以下指令，來建立 package.json：
+```
+$ npm init -y
+```
+
+2. 輸入以下指令，安裝 Express套件：
+```
+$ npm i express
+```
+
+3. 輸入以下指令，安裝 nodemon套件：
+```
+$ npm install -g nodemon
+```
+
 * 透過 nodemon 來啟動伺服器
+
+打開終端機，輸入以下指令：
+```
+$ nodemon app.js
+```
+
 * 在瀏覽器檢視伺服器的回應
 
 ## 餐廳清單的內容
