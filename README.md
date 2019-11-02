@@ -4,6 +4,13 @@
 
 ## 如何啟動本專案
 
+### 從伺服器上取得本專案的Repository
+
+打開終端機，輸入以下指令：
+```
+$ git clone
+```
+
 ### 安裝 Node.js，並透過 npm 來安裝 Express 與 nodemon 套件
 
 1. 打開終端機，輸入以下指令，透過 nvm 來安裝 Node.js最新版本(10.15.0)：
