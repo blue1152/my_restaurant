@@ -2,6 +2,12 @@
 
 利用 Node.js 跟 Express建立簡單的伺服器，並搭配 Bootstrap 打造出餐廳清單
 
+## 本專案所使用的套件
+
+* express
+* express-handlebars
+* nodemon
+
 ## 如何啟動本專案
 
 ### 從伺服器上取得本專案的Repository
@@ -11,21 +17,16 @@
 $ git clone　https://github.com/blue1152/my_restaurant.git
 ```
 
-### 安裝 Node.js，並透過 npm 來安裝 Express 與 nodemon 套件
+### 安裝 Node.js，並透過 npm 來安裝package.json檔案所定義的相依套件
 
 1. 在my_restaurant目錄下，透過 nvm 來安裝 Node.js最新版本(10.15.0)：
 ```
 $ nvm install 10.15.0
 ```
 
-2. 輸入以下指令，安裝 Express套件：
+2. 到package.json所在的目錄下，輸入：
 ```
-$ npm i express
-```
-
-3. 輸入以下指令，安裝 nodemon套件：
-```
-$ npm install -g nodemon
+$ npm install
 ```
 
 ### 透過 nodemon 來啟動伺服器
