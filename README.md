@@ -8,12 +8,12 @@
 
 打開終端機，輸入以下指令：
 ```
-$ git clone
+$ git clone　https://github.com/blue1152/my_restaurant.git
 ```
 
 ### 安裝 Node.js，並透過 npm 來安裝 Express 與 nodemon 套件
 
-1. 打開終端機，輸入以下指令，透過 nvm 來安裝 Node.js最新版本(10.15.0)：
+1. 在my_restaurant目錄下，透過 nvm 來安裝 Node.js最新版本(10.15.0)：
 ```
 $ nvm install 10.15.0
 ```
