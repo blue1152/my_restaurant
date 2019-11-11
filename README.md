@@ -14,7 +14,7 @@
 
 打開終端機，輸入以下指令：
 ```
-$ git clone　https://github.com/blue1152/my_restaurant.git
+$ git clone https://github.com/blue1152/my_restaurant.git
 ```
 
 ### 安裝 Node.js，並透過 npm 來安裝package.json檔案所定義的相依套件
